@@ -1,0 +1,21 @@
+1.
+Create a variable and set it equal to ‘variable’.
+What are some different data types? Write a few examples.
+
+
+variable = "variable"
+integers, booleans, strings, hashes, arrays
+
+2.
+Open irb. We’re going to make some cars.
+Create two hashes, one for each car, with the following attributes: wheels, max_speed, color
+Create an array that contains both cars.
+How do we use the array to access the second car?
+How do we find the second car’s color?
+
+car_1 = { "wheels" => 4, "max_speed" => 300, "color" => "red" }
+car_2 = { "wheels" => 4, "max_speed" => 310, "color" => "black" }
+
+cars = [ car_1, car_2 ]
+
+cars[1]["color"]
